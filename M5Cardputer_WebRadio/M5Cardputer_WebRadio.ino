@@ -38,24 +38,8 @@ static constexpr uint8_t m5spk_virtual_channel = 0;
 /// set web radio station url
 static constexpr const char* station_list[][2] =
 {
-  {"MundoLivre FM"      , "https://up-rcr.webnow.com.br/mundolivre.mp3"},
-  //{"Morcegao FM"      , "https://radio.morcegaofm.com.br/morcegao128"},
-  //{"Radio O Porao"    , "http://server03.stmsg.com.br:6678/stream"},
-  {"Radio Mundo do Rock", "https://servidor34.brlogic.com:8014/live"},
-  {"u80s"               , "http://ice6.somafm.com/u80s-128-mp3"},
-  {"Awesome80s"         , "http://listen.livestreamingservice.com/181-awesome80s_128k.mp3"},
-  {"Metal Detector"     , "http://ice4.somafm.com/metal-128-mp3"},
-  {"181-beatles_128k"   , "http://listen.181fm.com/181-beatles_128k.mp3"},
-  {"Rock hairband"      , "http://listen.livestreamingservice.com/181-hairband_128k.mp3"},
-  {"Antena Joven"       , "https://wms5.webradios.com.br:18964/8964"},
-  {"illstreet-128-mp3"  , "http://ice1.somafm.com/illstreet-128-mp3"},
-  {"bootliquor-128-mp3" , "http://ice1.somafm.com/bootliquor-128-mp3"},
-  {"dronezone-128-mp3"  , "http://ice1.somafm.com/dronezone-128-mp3"},
-  {"Lite Favorites"     , "http://naxos.cdnstream.com:80/1255_128"},
-  {"Classic FM"         , "http://media-ice.musicradio.com:80/ClassicFMMP3"},
-  {"Bons Tempos FM"     , "https://server02.ouvir.radio.br:8050/stream"},
-  //{"Morcegao FM"       , "https://radio.morcegaofm.com.br/auto"},
-  //{"Morcegao FM"        , "https://radio.morcegaofm.com.br/morcegao32"},
+  {"Radio Record", "https://listen.vdfm.ru:8000/record"},
+  {"Center FM", "http://stream2.datacenter.by/stream"},
 };
 static constexpr const size_t stations = sizeof(station_list) / sizeof(station_list[0]);
 
